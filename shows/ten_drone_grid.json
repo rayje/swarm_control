@@ -1,0 +1,90 @@
+{
+  "room": {
+    "width_m": 6.096,
+    "depth_m": 4.572,
+    "height_m": 2.7432
+  },
+  "minimum_separation_m": 0.9,
+  "wall_margin_m": 0.65,
+  "floor_clearance_m": 0.0,
+  "ceiling_clearance_m": 0.6,
+  "drones": [
+    "CF01",
+    "CF02",
+    "CF03",
+    "CF04",
+    "CF05",
+    "CF06",
+    "CF07",
+    "CF08",
+    "CF09",
+    "CF10"
+  ],
+  "launch_positions_room_m": {
+    "CF01": [
+      -2.0,
+      0.6,
+      0
+    ],
+    "CF02": [
+      -1.0,
+      0.6,
+      0
+    ],
+    "CF03": [
+      0.0,
+      0.6,
+      0
+    ],
+    "CF04": [
+      1.0,
+      0.6,
+      0
+    ],
+    "CF05": [
+      2.0,
+      0.6,
+      0
+    ],
+    "CF06": [
+      -2.0,
+      -0.6,
+      0
+    ],
+    "CF07": [
+      -1.0,
+      -0.6,
+      0
+    ],
+    "CF08": [
+      0.0,
+      -0.6,
+      0
+    ],
+    "CF09": [
+      1.0,
+      -0.6,
+      0
+    ],
+    "CF10": [
+      2.0,
+      -0.6,
+      0
+    ]
+  },
+  "phases": [
+    {
+      "type": "takeoff",
+      "altitude_m": 1.0,
+      "duration_s": 5
+    },
+    {
+      "type": "hold",
+      "duration_s": 8
+    },
+    {
+      "type": "land",
+      "duration_s": 5
+    }
+  ]
+}
